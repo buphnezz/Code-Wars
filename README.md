@@ -1,23 +1,16 @@
 # Code-Wars    
-Abbreviate a Two Word Name:
+My Head is at the Wrong End!:
 
-Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
+You're at the zoo... all the meerkats look weird. Something has gone terribly wrong - someone has gone and switched their heads and tails around!
 
-The output should be two capital letters with a dot seperating them.
+Save the animals by switching them back. You will be given an array which will have three values (tail, body, head). It is your job to re-arrange the array so that the animal is the right way round (head, body, tail).
 
-It should look like this:
+Same goes for all the other arrays/lists that you will get in the tests: you have to change the element positions with the same exact logics - simples!
 
-Sam Harris => S.H
-
-Patrick Feeney => P.F
-
-https://www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript
+https://www.codewars.com/kata/my-head-is-at-the-wrong-end/train/javascript
 
 Here are resources I used to find this solution:
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring
-
-https://stackoverflow.com/questions/33076177/getting-name-initials-using-js
 
