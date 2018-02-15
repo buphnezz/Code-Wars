@@ -1,3 +1,4 @@
+
 function insertDash(num) {
   var numString = num.toString();
   var returnString = numString[0];
@@ -11,3 +12,11 @@ function insertDash(num) {
   }
   return returnString;
 }
+
+function fixTheMeerkat(arr) {
+  let fixedMeerkat = arr.reverse();
+  return fixedMeerkat;
+
+}
+    // code away
+
