@@ -1,4 +1,9 @@
 
+function validateUsr(username) {
+  res = /^[a-z0-9_]{4,16}$/.test(username)
+  return res
+}
+
 function insertDash(num) {
   var numString = num.toString();
   var returnString = numString[0];
