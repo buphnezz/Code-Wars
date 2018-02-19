@@ -1,4 +1,4 @@
-var replaceDots = function(str) {
-var newReplaceDots = str.replace(/./i, replaceDots);
-  return str.replace(/./, '-');
+function validatePIN(pin) {
+  pin = /^(\d{4}|\d{6})$/.test(pin)
+  return pin
 }
