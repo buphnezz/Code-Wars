@@ -1,16 +1,14 @@
-Code Wars: Regex validate PIN code
+Code Wars: Disemvowl Trolls
 
-ATM machines allow 4 or 6 digit PIN codes and PIN codes cannot contain anything but exactly 4 digits or exactly 6 digits.
+Trolls are attacking your comment section!
 
-If the function is passed a valid PIN string, return true, else return false.
+A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
 
-eg:
+Your task is to write a function that takes a string and return a new string with all vowels removed.
 
-validatePIN("1234") === true
-validatePIN("12345") === false
-validatePIN("a234") === false
+For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+
+Note: for this kata y isn't considered a vowel.
 
 sources:
-https://stackoverflow.com/questions/11397378/is-there-a-regex-quantifier-that-says-either-x-or-y-repeats
-
-https://stackoverflow.com/questions/11797897/regular-expressions-match-exactly-7-or-9-digits
+My partner Brent and I worked on the whiteboarding and solution so our answers may be similar or the same.
