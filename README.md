@@ -1,14 +1,5 @@
-Code Wars: Disemvowl Trolls
+Code Wars: Reversed Strings
 
-Trolls are attacking your comment section!
+Complete the solution so that it reverses the string value passed into it.
 
-A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
-
-Your task is to write a function that takes a string and return a new string with all vowels removed.
-
-For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
-
-Note: for this kata y isn't considered a vowel.
-
-sources:
-My partner Brent and I worked on the whiteboarding and solution so our answers may be similar or the same.
+solution('world'); // returns 'dlrow'
