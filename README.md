@@ -1,6 +1,4 @@
-Code Wars: Use map() to double the values in an array
-
-List Filtering
+Code Wars: List Filtering
 
 In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
 
