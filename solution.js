@@ -1,4 +1,5 @@
-var replaceDots = function(str) {
-var newReplaceDots = str.replace(/./i, replaceDots);
-  return str.replace(/./, '-');
-}
+function filter_list(l) {
+  return l.filter(function (value) {
+    return (typeof value === "number")
+  });
+};
