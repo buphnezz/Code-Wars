@@ -1,6 +1,4 @@
-function filter_list(l) {
-  return l.filter(function (value) {
-    return (typeof value === "number")
-  });
-};
+function find_average(array) {
+  return array.reduce((a, b) => a + b, 0) / array.length;
+}
 

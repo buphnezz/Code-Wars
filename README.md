@@ -1,15 +1,11 @@
-Code Wars: List Filtering
+# Code-Wars
+Calculate Average
 
-In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+Write function avg which calculates average of numbers in given list.
 
-Example
-filter_list([1,2,'a','b']) == [1,2]
-filter_list([1,'a','b',0,15]) == [1,0,15]
-filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
+Sources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 
-sources:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+Vinicio's Demo
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#Examples
-
-https://stackoverflow.com/questions/35052223/how-can-i-use-filter-on-an-array-to-remove-only-nan-but-not-strings-and-num
+Our blog application, Day 10.  I also used the .reduce method we used on Article.numWordByAuthor as a guide.
