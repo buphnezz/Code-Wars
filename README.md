@@ -1,4 +1,4 @@
-# Code-Wars
+Code Wars: Use map() to double the values in an array
 
 List Filtering
 
