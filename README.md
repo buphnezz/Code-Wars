@@ -1,11 +1,13 @@
-# Code-Wars
-Calculate Average
 
-Write function avg which calculates average of numbers in given list.
+# Code-Wars FIXME: Replace all dots
 
-Sources:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+The code provided is supposed replace all the dots . in the specified String str with dashes -
 
-Vinicio's Demo
+But it's not working properly.
 
-Our blog application, Day 10.  I also used the .reduce method we used on Article.numWordByAuthor as a guide.
+Task
+Fix the bug so we can all go home early.
+
+Notes
+String str will never be null.
+

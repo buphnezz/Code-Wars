@@ -1,4 +1,5 @@
-function find_average(array) {
-  return array.reduce((a, b) => a + b, 0) / array.length;
-}
 
+var replaceDots = function (str) {
+  let noMoreDots = str.split('.').join('-');
+  return noMoreDots;
+}
