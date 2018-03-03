@@ -1,31 +1,19 @@
 
 # Code-Wars
 
-Mutate My Strings
-
-I will give you two strings. I want you to transform stringOne into stringTwo one letter at a time.
-
-Example:
-
-stringOne = 'bubble gum';
-stringTwo = 'turtle ham';
-
-Result:
-bubble gum
-tubble gum
-turble gum
-turtle gum
-turtle hum
-turtle ham
-
-Sources:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+Indexed Capitalization
 
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
+Given a string and an array of integers representing indices, capitalize all letters at the given indices.
 
-https://www.w3schools.com/jsref/jsref_concat_string.asp
+For example:
 
-https://www.w3schools.com/jsref/jsref_concat_array.asp
+capitalize("abcdef",[1,2,5]) = "aBCdeF"
+capitalize("abcdef",[1,2,5,100]) = "aBCdeF". There is no index 100.
+The input will be a lowercase string with no spaces and an array of digits.
 
-https://stackoverflow.com/questions/1155678/javascript-string-newline-character
+Good luck!
+
+sources:
+
+https://stackoverflow.com/questions/7743582/trying-to-capitalize-the-first-character-in-array-of-strings-why-this-is-not-wo
