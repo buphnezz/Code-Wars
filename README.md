@@ -1,19 +1,31 @@
 
 # Code-Wars
-Highest Scoring Word
 
-Given a string of words, you need to find the highest scoring word.
+Mutate My Strings
 
-Each letter of a word scores points according to it's position in the alphabet: a = 1, b = 2, c = 3 etc.
+I will give you two strings. I want you to transform stringOne into stringTwo one letter at a time.
 
-You need to return the highest scoring word as a string.
+Example:
+
+stringOne = 'bubble gum';
+stringTwo = 'turtle ham';
+
+Result:
+bubble gum
+tubble gum
+turble gum
+turtle gum
+turtle hum
+turtle ham
+
+Sources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
 
 
-sources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+https://www.w3schools.com/jsref/jsref_concat_string.asp
 
-https://www.w3schools.com/jsref/jsref_charCodeAt.asp
+https://www.w3schools.com/jsref/jsref_concat_array.asp
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
-
+https://stackoverflow.com/questions/1155678/javascript-string-newline-character
