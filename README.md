@@ -1,11 +1,10 @@
 # Code-Wars
-Calculate Average
+Alternate Capitalization
 
-Write function avg which calculates average of numbers in given list.
+Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below. Index 0 will be considered even.
 
-Sources:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+For example, capitalize("abcdef") = ['AbCdEf', 'aBcDeF']. See test cases for more examples.
 
-Vinicio's Demo
+The input will be a lowercase string with no spaces.
 
-Our blog application, Day 10.  I also used the .reduce method we used on Article.numWordByAuthor as a guide.
+Good luck!
