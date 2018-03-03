@@ -1,6 +1,11 @@
-# Code-Wars
+# Code-Wars FIXME: Replace all dots
 
-var replaceDots = function(str) {
-var newReplaceDots = str.replace(/./i, replaceDots);
-  return str.replace(/./, '-');
-}
+The code provided is supposed replace all the dots . in the specified String str with dashes -
+
+But it's not working properly.
+
+Task
+Fix the bug so we can all go home early.
+
+Notes
+String str will never be null.

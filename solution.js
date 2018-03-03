@@ -1,4 +1,4 @@
-var replaceDots = function(str) {
-var newReplaceDots = str.replace(/./i, replaceDots);
-  return str.replace(/./, '-');
+var replaceDots = function (str) {
+  let noMoreDots = str.split('.').join('-');
+  return noMoreDots;
 }
