@@ -1,19 +1,20 @@
 
 # Code-Wars
-Highest Scoring Word
 
-Given a string of words, you need to find the highest scoring word.
+Indexed Capitalization
 
-Each letter of a word scores points according to it's position in the alphabet: a = 1, b = 2, c = 3 etc.
 
-You need to return the highest scoring word as a string.
+Given a string and an array of integers representing indices, capitalize all letters at the given indices.
 
+For example:
+
+capitalize("abcdef",[1,2,5]) = "aBCdeF"
+capitalize("abcdef",[1,2,5,100]) = "aBCdeF". There is no index 100.
+The input will be a lowercase string with no spaces and an array of digits.
+
+Good luck!
 
 sources:
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
-
-https://www.w3schools.com/jsref/jsref_charCodeAt.asp
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+https://stackoverflow.com/questions/7743582/trying-to-capitalize-the-first-character-in-array-of-strings-why-this-is-not-wo
 
