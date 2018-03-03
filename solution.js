@@ -1,9 +1,9 @@
-function capitalize(s) {
-  var arr = s.split('');
-  var arrOddIndex = [];
+function capitalize(s){
+  let arr = s.split('');
+  let arrOddIndex = [];
   arrOddIndex.push(arr[0]);
   arr[0] = arr[0].toUpperCase();
-  for (var i = 1; i < arr.length; i++) {
+  for (let i = 1; i < arr.length; i++) {
     if (i % 2 === 0) {
       arrOddIndex.push(arr[i]);
       arr[i] = arr[i].toUpperCase();
@@ -11,7 +11,7 @@ function capitalize(s) {
       arrOddIndex[i] = arr[i].toUpperCase();
     }
   }
-  var sEvenIndexNums = arr.join('');
-  var sOddIndexNums = arrOddIndex.join('');
+  let sEvenIndexNums = arr.join('');
+  let sOddIndexNums = arrOddIndex.join('');
   return [sEvenIndexNums, sOddIndexNums];
 };
