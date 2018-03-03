@@ -1,3 +1,4 @@
+
 function formatWords(words) {
   if (words === [] || words === null) return '';
   words = words.filter(function (n) { return n !== ''; });

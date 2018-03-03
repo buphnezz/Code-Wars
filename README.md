@@ -1,3 +1,4 @@
+
 Code Wars: 
 
 Format words into a sentence
