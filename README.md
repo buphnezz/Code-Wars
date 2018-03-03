@@ -1,14 +1,18 @@
-Code Wars: Disemvowl Trolls
+Code Wars: 
 
-Trolls are attacking your comment section!
+Format words into a sentence
 
-A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+Complete the method so that it formats the words into a single comma separated value. The last word should be separated by the word 'and' instead of a comma. The method takes in an array of strings and returns a single formatted string. Empty string values should be ignored. Empty arrays or null/nil values being passed into the method should result in an empty string being returned.
 
-Your task is to write a function that takes a string and return a new string with all vowels removed.
 
-For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
-
-Note: for this kata y isn't considered a vowel.
 
 sources:
-My partner Brent and I worked on the whiteboarding and solution so our answers may be similar or the same.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
+Vinicio's in-class youtube demo covering map.().
