@@ -1,3 +1,4 @@
+
 # Code-Wars FIXME: Replace all dots
 
 The code provided is supposed replace all the dots . in the specified String str with dashes -
@@ -9,3 +10,4 @@ Fix the bug so we can all go home early.
 
 Notes
 String str will never be null.
+
