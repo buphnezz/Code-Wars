@@ -1,3 +1,4 @@
+
 Code Wars: 
 
 Sum of Odd Cubed Numbers
