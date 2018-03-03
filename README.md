@@ -1,13 +1,19 @@
 
-# Code-Wars FIXME: Replace all dots
+Code Wars: 
 
-The code provided is supposed replace all the dots . in the specified String str with dashes -
+Format words into a sentence
 
-But it's not working properly.
+Complete the method so that it formats the words into a single comma separated value. The last word should be separated by the word 'and' instead of a comma. The method takes in an array of strings and returns a single formatted string. Empty string values should be ignored. Empty arrays or null/nil values being passed into the method should result in an empty string being returned.
 
-Task
-Fix the bug so we can all go home early.
 
-Notes
-String str will never be null.
 
+sources:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
+Vinicio's in-class youtube demo covering map.().
