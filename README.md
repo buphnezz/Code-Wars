@@ -1,3 +1,4 @@
+
 # Code-Wars
 Highest Scoring Word
 
@@ -7,9 +8,6 @@ Each letter of a word scores points according to it's position in the alphabet: 
 
 You need to return the highest scoring word as a string.
 
-If two words score the same, return the word that appears earliest in the original string.
-
-All letters will be lowercase and all inputs will be valid.
 
 sources:
 
@@ -18,3 +16,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://www.w3schools.com/jsref/jsref_charCodeAt.asp
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+

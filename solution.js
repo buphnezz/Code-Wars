@@ -1,3 +1,4 @@
+
 function high(x) {
   let highestScoringWord = 0;
   let word = '';
