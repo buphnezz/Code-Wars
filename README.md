@@ -1,11 +1,31 @@
 # Code-Wars
-Calculate Average
+Mutate My Strings
 
-Write function avg which calculates average of numbers in given list.
+I will give you two strings. I want you to transform stringOne into stringTwo one letter at a time.
+
+Example:
+
+stringOne = 'bubble gum';
+stringTwo = 'turtle ham';
+
+Result:
+bubble gum
+tubble gum
+turble gum
+turtle gum
+turtle hum
+turtle ham
 
 Sources:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
 
-Vinicio's Demo
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
+
+https://www.w3schools.com/jsref/jsref_concat_string.asp
+
+https://www.w3schools.com/jsref/jsref_concat_array.asp
+
+https://stackoverflow.com/questions/1155678/javascript-string-newline-character
 
 Our blog application, Day 10.  I also used the .reduce method we used on Article.numWordByAuthor as a guide.

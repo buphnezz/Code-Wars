@@ -1,4 +1,15 @@
-function find_average(array) {
-  return array.reduce((a, b) => a + b, 0) / array.length;
-}
+function mutateMyStrings(stringOne, stringTwo) {
+  let first = stringOne.split('');
+  let second = stringTwo.split('');
 
+  let result = (stringOne + '\n');
+
+  for (i = 0; i < first.length; i++) {
+
+    if (first[i] !== second[i]) {
+      first[i] = second[i];
+      result = result.concat(first.join('') + '\n');
+    }
+  }
+  return result;
+}
