@@ -1,17 +1,18 @@
-function capitalize(s){
-  let arr = s.split('');
-  let arrOddIndex = [];
-  arrOddIndex.push(arr[0]);
-  arr[0] = arr[0].toUpperCase();
-  for (let i = 1; i < arr.length; i++) {
-    if (i % 2 === 0) {
-      arrOddIndex.push(arr[i]);
-      arr[i] = arr[i].toUpperCase();
-    } else {
-      arrOddIndex[i] = arr[i].toUpperCase();
+
+function high(x) {
+  let highestScoringWord = 0;
+  let word = '';
+  let wordArray = x.split(' ');
+  for (var i = 0; i < wordArray.length; i++) {
+    let wordTotal = 0;
+    let newlyIndexedWord = wordArray[i];
+    for (var j = 0; j < newlyIndexedWord.length; j++) {
+      wordTotal = wordTotal + (newlyIndexedWord.charCodeAt(j) - 96);
+    }
+    if (wordTotal > highestScoringWord) {
+      highestScoringWord = wordTotal;
+      word = newlyIndexedWord;
     }
   }
-  let sEvenIndexNums = arr.join('');
-  let sOddIndexNums = arrOddIndex.join('');
-  return [sEvenIndexNums, sOddIndexNums];
+  return word;
 };
