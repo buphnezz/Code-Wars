@@ -1,14 +1,14 @@
 function mutateMyStrings(stringOne, stringTwo) {
-  let first = stringOne.split('');
-  let second = stringTwo.split('');
+  let stringOneArray = stringOne.split('');
+  let stringTwoArray = stringTwo.split('');
 
   let result = (stringOne + '\n');
 
-  for (i = 0; i < first.length; i++) {
+  for (i = 0; i < stringOneArray.length; i++) {
 
-    if (first[i] !== second[i]) {
-      first[i] = second[i];
-      result = result.concat(first.join('') + '\n');
+    if (stringOneArray[i] !== stringTwoArray[i]) {
+      stringOneArray[i] = stringTwoArray[i];
+      result = result.concat(stringOneArray.join('') + '\n');
     }
   }
   return result;

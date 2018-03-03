@@ -1,4 +1,6 @@
+
 # Code-Wars
+
 Mutate My Strings
 
 I will give you two strings. I want you to transform stringOne into stringTwo one letter at a time.
@@ -27,5 +29,3 @@ https://www.w3schools.com/jsref/jsref_concat_string.asp
 https://www.w3schools.com/jsref/jsref_concat_array.asp
 
 https://stackoverflow.com/questions/1155678/javascript-string-newline-character
-
-Our blog application, Day 10.  I also used the .reduce method we used on Article.numWordByAuthor as a guide.
