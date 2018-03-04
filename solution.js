@@ -1,18 +1,11 @@
-
-function high(x) {
-  let highestScoringWord = 0;
-  let word = '';
-  let wordArray = x.split(' ');
-  for (var i = 0; i < wordArray.length; i++) {
-    let wordTotal = 0;
-    let newlyIndexedWord = wordArray[i];
-    for (var j = 0; j < newlyIndexedWord.length; j++) {
-      wordTotal = wordTotal + (newlyIndexedWord.charCodeAt(j) - 96);
+function capitalize(s, arr) {
+  let splitStringArray = s.split('');
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > splitStringArray.length) {
+      continue;
     }
-    if (wordTotal > highestScoringWord) {
-      highestScoringWord = wordTotal;
-      word = newlyIndexedWord;
-    }
+    splitStringArray[arr[i]] = splitStringArray[arr[i]].toUpperCase();
   }
-  return word;
+  s = splitStringArray.join('');
+  return s;
 };
