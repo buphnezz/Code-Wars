@@ -17,4 +17,3 @@ Good luck!
 sources:
 
 https://stackoverflow.com/questions/7743582/trying-to-capitalize-the-first-character-in-array-of-strings-why-this-is-not-wo
-
