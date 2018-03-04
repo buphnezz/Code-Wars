@@ -1,15 +1,11 @@
-function mutateMyStrings(stringOne, stringTwo) {
-  let stringOneArray = stringOne.split('');
-  let stringTwoArray = stringTwo.split('');
-
-  let result = (stringOne + '\n');
-
-  for (i = 0; i < stringOneArray.length; i++) {
-
-    if (stringOneArray[i] !== stringTwoArray[i]) {
-      stringOneArray[i] = stringTwoArray[i];
-      result = result.concat(stringOneArray.join('') + '\n');
+function capitalize(s, arr) {
+  let splitStringArray = s.split('');
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > splitStringArray.length) {
+      continue;
     }
+    splitStringArray[arr[i]] = splitStringArray[arr[i]].toUpperCase();
   }
-  return result;
-}
+  s = splitStringArray.join('');
+  return s;
+};
